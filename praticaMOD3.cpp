@@ -58,9 +58,9 @@ class State {
     bool success() {
         bool retorno = false;
         if (this->pos[0] == 4) {
-            retorno = true;
+            retornor = true;
         }
-        return retorno;
+        return retornor;
     }
 
     bool equals(State* s) {
